@@ -43,5 +43,5 @@ loginButton .addEventListener("clik",function(event){
   const passwordValue = userPssord.value;
   //Send
   console.log("Din epost adresse er: "+emailValue +".");
-  
+console.log(`Din passord er: ${passordValue}`);
 });
