@@ -47,9 +47,9 @@ loginButton .addEventListener ("clik",function(event)
   emailDisplay.textContent = emailValue;// gir div-element det nye p-element
   const pasordDisplay = document.createElement("p");
   pasordDisplay.textContent = emailValue;
-  const viewValue = viewPassord.check;
+  const viewValue = viewPassord.checked;
   console.log(viewValue + "Passordet er synlig");
-  const loginValue = rememberLogin.check;
+  const loginValue = rememberLogin.checked;
   console.log(remembeValue + "innlogingen din er lagret!")
   //Send
   console.log("Din epost adresse er: "+emailValue +".");
