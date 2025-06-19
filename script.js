@@ -27,25 +27,26 @@ sunIcon.addEventListener('click', function () {
 
 const loginButton = document.querySelector('#logingButton');
 console.log(loginButton);
-loginButton .addEventListener("clik",function(event){
+loginButton .addEventListener ("clik",function(event)
+{
   event.preventDefault();
   console.log("Button clicked!");
   //Hent
   const userEmail =document.querySelector("#userEmail");
  
  
-  const userPassord = document.querySelector("#userPassord");
+  const userPassord = document.querySelector("#userPassord");//henter selve input-element
   const viewPassord = document.querySelector("#viewPassord");
   const rememberLogin = document.querySelector("#rememberLogin");
   const loginDisplay = document.querySelector("#loginDisplay");
   console.log(userEmail, userPassord,viewPassord, rememberLogin,loginDisplayisplay);
   //Modifiser
-  const emailValue = userEmail.ariaValue;
+  const emailValue = userEmail.ariaValue;//henter verdien inni element
   const passwordValue = userPssord.value;
-  const emailDisplay = document.createDocument("p");
-  emailDisplay.textContent = emailValue;
+  const emailDisplay = document.createDocument("p"); //lager nytt element
+  emailDisplay.textContent = emailValue;// gir div-element det nye p-element
   //Send
   console.log("Din epost adresse er: "+emailValue +".");
 console.log(`Din passord er: ${passordValue}`);
-loginDisplay.appendChild(emailDisplay);
+loginDisplay.appendChild(emailDisplay);//Gir div-element det nye p-element med innhold
 });
