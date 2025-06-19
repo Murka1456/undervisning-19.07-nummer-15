@@ -45,8 +45,11 @@ loginButton .addEventListener ("clik",function(event)
   const passwordValue = userPssord.value;
   const emailDisplay = document.createDocument("p"); //lager nytt element
   emailDisplay.textContent = emailValue;// gir div-element det nye p-element
+  const pasordDisplay = document.createElement("p");
+  pasordDisplay.textContent = emailValue;
   //Send
   console.log("Din epost adresse er: "+emailValue +".");
 console.log(`Din passord er: ${passordValue}`);
 loginDisplay.appendChild(emailDisplay);//Gir div-element det nye p-element med innhold
+logingDisplay.appendChild(passordDisplay);
 });
