@@ -34,6 +34,14 @@ loginButton .addEventListener("clik",function(event){
   const userEmail =document.querySelector("#userEmail");
  
  
-  const userPassord = document.querySelector("#userPassord")
-  consr vier
-}
+  const userPassord = document.querySelector("#userPassord");
+  const viewPassord = document.querySelector("#viewPassord");
+  const rememberLogin = document.querySelector("#rememberLogin");
+  console.log(userEmail, userPassord,viewPassord, rememberLogin);
+  //Modifiser
+  const emailValue = userEmail.ariaValue;
+  const passwordValue = userPssord.value;
+  //Send
+  console.log("Din epost adresse er: "+emailValue +".");
+  
+});
