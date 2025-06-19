@@ -31,5 +31,9 @@ loginButton .addEventListener("clik",function(event){
   event.preventDefault();
   console.log("Button clicked!");
   //Hent
-  
+  const userEmail =document.querySelector("#userEmail");
+ 
+ 
+  const userPassord = document.querySelector("#userPassord")
+  consr vier
 }
