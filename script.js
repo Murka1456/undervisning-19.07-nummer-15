@@ -37,10 +37,13 @@ loginButton .addEventListener("clik",function(event){
   const userPassord = document.querySelector("#userPassord");
   const viewPassord = document.querySelector("#viewPassord");
   const rememberLogin = document.querySelector("#rememberLogin");
-  console.log(userEmail, userPassord,viewPassord, rememberLogin);
+  const loginDisplay = document.querySelector("#loginDisplay");
+  console.log(userEmail, userPassord,viewPassord, rememberLogin,loginDisplayisplay);
   //Modifiser
   const emailValue = userEmail.ariaValue;
   const passwordValue = userPssord.value;
+  const emailDisplay = document.createDocument("p");
+  emailDisplay.textContent = emailValue;
   //Send
   console.log("Din epost adresse er: "+emailValue +".");
 console.log(`Din passord er: ${passordValue}`);
