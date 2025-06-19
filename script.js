@@ -21,5 +21,15 @@ sunIcon.addEventListener('click', function () {
   body.classList.add('dark');
 });
 
+
+
+
+
 const loginButton = document.querySelector('#logingButton');
 console.log(loginButton);
+loginButton .addEventListener("clik",function(event){
+  event.preventDefault();
+  console.log("Button clicked!");
+  //Hent
+  
+}
